@@ -1,7 +1,6 @@
 a = ["Telefonou para a vítima?", "Esteve no local do crime?", "Mora perto da vítima?", "Devia para a vítima?", "Já trabalhou com a vítima?"]
 
 sim = 0
-nao = 0
 
 for i in range(5):
     resposta = input(a[i])
@@ -9,8 +8,6 @@ for i in range(5):
     if resposta.lower() == "sim":
         sim += 1
 
-    else:
-        nao += 1
 
 if sim < 2:
     print(" VOCÊ FOI INOCENTADO! ")
